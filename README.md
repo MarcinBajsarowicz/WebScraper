@@ -27,5 +27,5 @@
 |list of product disadvantages|cons|div.review-feature__item--negative|
 |how many users think that opinion was helpful|helpful|button.vote-yes > yes|
 |how many users think that opinion was unhelpful|unhelpful|button.vote-yes > no|
-|publishing date|publish_date|span.user-post__published > time:nth-of-type(1)[datetime]|
-|purchase date|purchase_date|span.user-post__published > time:nth-of-type(2)[datetime]|    
+|publishing date|publish_date|span.user-post__published > time:nth-of-child(1)[datetime]|
+|purchase date|purchase_date|span.user-post__published > time:nth-of-child(2)[datetime]|    
